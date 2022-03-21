@@ -1,0 +1,199 @@
+:root {
+    --nav: #EE7879;
+    --welcome: #2A3166;
+    --projects: #F4ABAA;
+    --about: #CAE7DF;
+    --contact: #2A3166;
+    --light-text: #EE7879;
+    --light-text2: white;
+    --dark-text: #2A3166;
+    font-family: Raleway, sans-serif;
+    
+    /*
+    --nav: #14453D;
+    --welcome: #3D7068;
+    --about: #43C59E;
+    --contact: #48BEFF;
+    --light-text: #3DFAFF;
+    --dark-text: #14453D;
+    */
+  }
+  
+  @import url("https://fonts.googleapis.com/css?family=Raleway:400,400i,700");
+  
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  
+  a {
+    font-color: white;
+    text-decoration: none;
+  }
+  
+  img {
+    display: block;
+    width: 100%;
+  }
+  
+  nav {
+    background-color: var(--nav);
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .nav-link {
+    float: right;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+  }
+  
+  nav a {
+    color: var(--dark-text);
+    text-decoration: none;
+    font-family: Raleway, sans-serif;
+    font-size: 1.3rem;
+    font-weight: bold;
+  }
+  
+  #welcome-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background-color: var(--welcome);
+    padding: 0;
+    margin-top: 0px;
+  }
+  
+  #welcome-h1 {
+    color: var(--light-text);
+    text-align: center; 
+    font-size: 3rem;
+  }
+  
+  #welcome-subtext {
+    color: var(--light-text2);
+    text-align: center;
+    font-size: 2rem;
+  }
+  
+  /* Projects Section*/
+  
+  #projects {
+    /* justify-content: center; */
+    align-items: center;
+    padding: 5rem 2rem;
+    background-color: var(--projects);
+    /* display: flex;
+    flex-wrap: wrap; */
+  }
+  
+  .projects-section-header {
+    text-align: center;
+    font-size: 2.5rem;
+    color: var(--dark-text);
+    max-width: 640px;
+    margin: 0 auto 3rem auto;
+    border-bottom: 0.2rem solid var(--light-text2);
+  } 
+  
+  #project-grid {
+    display: grid;
+    grid-template-columns: repeat(autofit, minmax(400px, 400px));
+    grid-gap: 4rem;
+    width: 100%;
+    max-width: 1280;
+    margin: 0 auto;
+    margin-bottom: 6rem;
+  }
+  
+  @media (max-width: 30.625em) {
+      .projects-section {
+        padding: 6rem 1rem;
+      }
+    
+      .projects-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  
+  .project {
+    background-color: var(--welcome);
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    border-radius: 2px;
+    
+    /* max-width: 400px;*/
+  }
+  
+  .code {
+    color: var(--welcome);
+    transition: color 0.3s ease-out;
+  }
+  
+  .project:hover .code {
+    color: var(--light-text2);
+  }
+  
+  .project-image {
+    height: calc(100% - 6.8rem);
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .project-title {
+    font-size: 2rem;
+    padding: 2rem 0.5rem;
+    color: var(--light-text);
+    text-align: center;
+  }
+  
+  /*@media (max-width: 30em) {
+    project-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+  /* About Section */
+  
+  
+  #about-section {
+    background-color: var(--about);
+    padding: 10%;
+  }
+  
+  #about-title {
+    text-align: center;
+    text-justification: center;
+    color: var(--dark-text);
+    border-bottom: 0.2rem solid var(--dark-text)
+  }
+  
+  #about-details {
+    padding: 10px;
+    color: var(--dark-text);
+  }
+  
+  
+  
+  /* Contact Section */
+  
+  #contact-section {
+    background-color: var(--contact);
+    text-align: center;
+    padding: 10% .6rem;
+    color: var(--light-text);
+  }
+  
+  #contact-section > a {
+    color: white;
+  }
+  
+  #contact-section > a:hover {
+    background-color: white;
+    color: var(--dark-text);
+  }
