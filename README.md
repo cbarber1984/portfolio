@@ -8,20 +8,20 @@ I completed this site as part of the freeCodeCamp responsive web design curricul
 
 ## Concepts Explored
 ###### -HTML
-  • Links to external sources for images
-  • Using divs to organize content
-  • Using id and class attributes to identify elements for later styling
+  - Links to external sources for images
+  - Using divs to organize content
+  - Using id and class attributes to identify elements for later styling
   
 ###### -CSS Styling
-  • Selecting colors from a design pallette
-  • Resizing elements based upon viewport size
-  • Planning a layout which involved containers and elements within containers
+  - Selecting colors from a design pallette
+  - Resizing elements based upon viewport size
+  - Planning a layout which involved containers and elements within containers
   
 ## Next Steps
 There are a few things that I would still like to do with this project.
 
-  • Switch the project tile display to a grid when viewing on a large screen
-  • Update stock images with screenshots of the actual applications hosted in the assets folder
+  - Switch the project tile display to a grid when viewing on a large screen
+  - Update stock images with screenshots of the actual applications hosted in the assets folder
   
  ## Licesnse
  Copyright 2022 Craig Barber
