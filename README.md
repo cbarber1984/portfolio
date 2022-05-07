@@ -2,28 +2,28 @@
 
 https://cbarber1984.github.io/portfolio/
 
-##Portfolio site of recent work.
+## Portfolio site of recent work.
 
 I completed this site as part of the freeCodeCamp responsive web design curriculum.
 
-##Concepts Explored
--HTML
+## Concepts Explored
+###### -HTML
   • Links to external sources for images
   • Using divs to organize content
   • Using id and class attributes to identify elements for later styling
   
--CSS Styling
+###### -CSS Styling
   • Selecting colors from a design pallette
   • Resizing elements based upon viewport size
   • Planning a layout which involved containers and elements within containers
   
-##Next Steps
+## Next Steps
 There are a few things that I would still like to do with this project.
 
   • Switch the project tile display to a grid when viewing on a large screen
   • Update stock images with screenshots of the actual applications hosted in the assets folder
   
- ##Licesnse
+ ## Licesnse
  Copyright 2022 Craig Barber
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
