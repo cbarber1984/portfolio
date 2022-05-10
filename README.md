@@ -11,6 +11,8 @@ I completed this site as part of the freeCodeCamp responsive web design curricul
   - Links to external sources for images
   - Using divs to organize content
   - Using id and class attributes to identify elements for later styling
+  - Using fontawesome to incorporate social media icons into the contact section of the page
+  - Including links to social media profiles as well as the mailto function
   
 ###### -CSS Styling
   - Selecting colors from a design pallette
@@ -20,7 +22,6 @@ I completed this site as part of the freeCodeCamp responsive web design curricul
 ## Next Steps
 There are a few things that I would still like to do with this project.
 
-  - Switch the project tile display to a grid when viewing on a large screen
   - Update stock images with screenshots of the actual applications hosted in the assets folder
   
  ## Licesnse
