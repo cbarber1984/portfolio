@@ -26,6 +26,10 @@
     padding: 0;
   }
   
+body {
+  background-color: #EE7879;
+}
+
   a {
     font-color: white;
     text-decoration: none;
