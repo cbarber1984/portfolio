@@ -6,6 +6,8 @@ https://cbarber1984.github.io/portfolio/
 
 I completed this site as part of the freeCodeCamp responsive web design curriculum.
 
+![screenshot of page](assets/portfolio_screenshot.png)
+
 ## Concepts Explored
 ###### -HTML
   - Links to external sources for images
