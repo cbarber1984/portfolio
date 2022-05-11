@@ -20,11 +20,14 @@ I completed this site as part of the freeCodeCamp responsive web design curricul
   - Selecting colors from a design pallette
   - Resizing elements based upon viewport size
   - Planning a layout which involved containers and elements within containers
+  - Aligning and justifying content
   
 ## Next Steps
 There are a few things that I would still like to do with this project.
 
   - Update stock images with screenshots of the actual applications hosted in the assets folder
+  - Separate original projects from tutorial-based projects
+  - Create a different section for the tutorial-based projects
   
  ## Licesnse
  Copyright 2022 Craig Barber
