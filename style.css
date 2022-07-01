@@ -132,7 +132,6 @@ body {
     box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
     border-radius: 2px;
     
-    /* max-width: 400px;*/
   }
   
   .code {
@@ -149,6 +148,12 @@ body {
     /* width: 100%; */
     object-fit: cover;
   }
+
+  .position-left {
+    object-position: 0%;
+    text-align: left;
+    width: 100%;
+  }
   
   .project-title {
     font-size: 2rem;
@@ -156,6 +161,7 @@ body {
     color: var(--light-text);
     text-align: center;
   }
+
   
   /*@media (max-width: 30em) {
     project-grid {
